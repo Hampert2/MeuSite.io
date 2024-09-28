@@ -8,16 +8,15 @@
     color: #EEEEEE;
 }
 
-.icon{
-    
-}
-
 body {
     text-align: center;
 }
 
 .background-1{
+    position: relative;
     margin: 10px;
+    height: auto;
+    width: 1870px;
     background-color: #EEEEEE;
     border: 1px solid #222831;
 }
@@ -156,11 +155,11 @@ p{
 }
 
 .top-2bheadpat{
-    margin: -450px 0px 0px 100px;
+    margin: -260px 0px 0px 100px;
 }
 
 .bottom-2bheadpat{
-    margin: -430px 0px 0px -190px;
+    margin: -250px 0px 0px -190px;
 }
 
 .container{
