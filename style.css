@@ -17,7 +17,8 @@ body {
     margin: 10px;
     height: auto;
     width: 1870px;
-    background-color: #EEEEEE;
+    background-color: #111;
+    color: #fff;
     border: 1px solid #222831;
 }
 
@@ -143,11 +144,13 @@ p{
 }
 
 .underline{
-    text-decoration: blue underline;
+    text-decoration: #fca600 underline;
 }
 
 .top-2bheadpat, 
-.bottom-2bheadpat{
+.bottom-2bheadpat,
+.left-of-screach-bar,
+.rigth-of-screach-bar{
     height: 80px;
     position: absolute;
     top: 50%;
@@ -193,4 +196,66 @@ p{
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
+}
+
+.left-of-screach-bar{
+    height: 90px;
+    margin: -124px 0px 0px 302px;
+}
+
+.rigth-of-screach-bar{
+    height: 90px;
+    margin: -124px 0px 0px -370px;
+}
+
+.barra-pesquisa {
+    max-width: 600px;
+    margin: auto;
+}
+
+.input-container {
+    position: relative;
+}
+
+.input-pesquisa {
+    width: 475px;
+    margin: -10px 0px 0px 20px;
+    padding: 10px 40px;
+    background-color: #333;
+    color: #fff;
+    border: 2px solid #fca600;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.input-pesquisa:focus {
+    border-color: #333;
+    outline: none;
+}
+
+.icon-lupa {
+    position: absolute;
+    margin: -5px 0px 0px 0px;
+    left: 45px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #007bff;
+}
+
+.input-pesquisa:-webkit-autofill {
+    -webkit-box-shadow: inset 0 0 0 1000px #333;
+    -webkit-text-fill-color: #fff;
+    border: 2px solid #fca600;
+}
+
+.input-pesquisa:-moz-autofill {
+    background-color: #fca600 !important;
+    color: #fff !important;
+    border: 2px solid #fca600;
+}
+
+a{
+    color: #fca600;
+    text-decoration: none;
 }
